@@ -1,6 +1,6 @@
-import '../styles/_header.scss';
+import './header.css';
 
-import React from 'react';
+import React, { useRef } from 'react';
 import { Container } from 'reactstrap';
 
 const navLinks = [
@@ -28,6 +28,11 @@ const navLinks = [
 ]
 
 const Header = () => {
+
+const menuRef = useRef();
+
+const menuToggle = () => menuRef.current.classList.toggle('active_menu');
+
   return (
     <header className='header'>
         <Container>
@@ -37,33 +42,38 @@ const Header = () => {
                         <span><i class="ri-restaurant-fill"></i></span> Chef Food
                     </h2>
                 </div>
-                <div className='nav_menu'>
+                <div className='nav_menu' ref={menuRef}>
+                <div className='nav_list_wrapper d-flex align-items-center gap-5'>
                 <ul className='nav_list'>
 
                 {
                     navLinks.map((item, index)=>(
                         <li className='nav_item' key={index}>
-                        <a href={item.url}>{item.display}</a>
+                        <a href={item.url} onClick={menuToggle}>{item.display}</a>
                         </li>
                     ))
                 }
-                
-                <li className='nav_item'><a href='#'>About</a></li>
-
-                <li className='nav_item'><a href='#'>Menu</a></li>
-                <li className='nav_item'><a href='#'>Recipes</a></li>
-                <li className='nav_item'><a href='#'>Contact</a></li>
-
                 </ul>
-                </div>
+
                 <div className='menu_right'>
                     <div className='custom_search'>
                         <input type='text' placeholder='Search item...' />
                         <span><i class="ri-search-2-line"></i></span>
                     </div>
                 </div>
-                <div className='mobile_menu'></div>
-                <span><i class="ri-menu-3-line"></i></span>
+                </div>
+                </div>
+
+                <div>
+                    <span className='cart_icon'>
+                    <i class="ri-shopping-basket-2-fill"></i>
+                    <span className='badge'>2</span>
+                    </span>
+                </div>
+                
+                <div className='mobile_menu'>
+                <span><i class='ri-menu-3-line' onClick={menuToggle}></i></span>
+                </div>
             </div>
         </Container>
 
