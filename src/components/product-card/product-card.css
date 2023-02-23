@@ -1,0 +1,48 @@
+
+
+.single_product {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.single_product:hover {
+    box-shadow: 5px 5px 10px -5px grey;
+    transition: 0.3s;
+}
+
+.product_content {
+    padding: 0px 20px;
+    padding-bottom: 15px;
+}
+
+.product_content h6 {
+    text-align: center;
+}
+
+.rating span i {
+
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.price {
+
+}
+
+.price span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.shopping_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #FFDB89;
+}
