@@ -1,0 +1,15 @@
+
+
+.filter_btn {
+    border: 1px solid #FFDB89;
+    padding: 7px 25px;
+    background: transparent;
+    margin-left: 15px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active_btn {
+    background: #FFDB89;
+}

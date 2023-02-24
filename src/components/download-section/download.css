@@ -1,0 +1,49 @@
+
+
+.app_container {
+    border-radius: 10px;
+}
+
+.app_img {
+    margin-bottom: -100px;
+}
+
+.app_content h5 {
+
+}
+
+.app_content h2{
+    font-weight: 600;
+}
+
+.app_content {
+    padding-top: 50px;
+}
+
+.app_content p {
+
+}
+
+.btn_apple {
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+
+.btn_google {
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+
+.btn_google i {
+
+}
+
+.btn_apple:hover a {
+    color: black;
+}
+
+.btn_google:hover a {
+    color: black;
+}
