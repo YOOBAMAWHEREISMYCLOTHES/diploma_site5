@@ -6,6 +6,7 @@ import ChooseUs from '../components/choose-us/ChooseUs';
 import MenuPack from '../components/menu-pack/MenuPack';
 import Tesnimonials from '../components/testimonials/Tesnimonials';
 import Download from '../components/download-section/Download';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return <Fragment>
@@ -16,6 +17,7 @@ const Home = () => {
     <MenuPack />
     <Tesnimonials />
     <Download />
+    <Footer />
   </Fragment>
   
 }

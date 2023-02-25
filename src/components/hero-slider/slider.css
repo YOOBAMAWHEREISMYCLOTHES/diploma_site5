@@ -9,3 +9,29 @@
 .btn:hover {
     color: bisque;
 }
+
+@media only screen and (max-width: 992px) {
+    .slider_content h2 {
+        font-size: 1.5rem;
+    }
+
+    .slider_content p {
+        font-size: 0.8rem;
+    }
+
+    .slider_content .btn {
+        padding: 5px 25px;
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .slider_content {
+        padding-left: 0;
+    }
+
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+}

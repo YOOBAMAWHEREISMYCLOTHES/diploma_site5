@@ -1,0 +1,50 @@
+
+.footer {
+    padding-bottom: 0;
+}
+
+.footer_link-title {
+
+}
+
+.link_item {
+    padding-left: 0;
+    background: transparent;
+}
+
+.link_item a {
+    color: black;
+}
+
+.footer_bottom {
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer_bottom p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .link_item a {
+        font-size: 0.8rem;
+    }
+
+    .link_item {
+        font-size: 0.8rem;
+    }
+
+    .logo p {
+        font-size: 0.8rem;
+    }
+
+    .footer_bottom p {
+        font-size: 0.7rem;
+    }
+
+    .footer_bottom {
+        padding: 15px 0px;
+    }
+}

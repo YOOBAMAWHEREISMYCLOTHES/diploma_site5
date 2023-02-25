@@ -13,3 +13,14 @@
 .active_btn {
     background: #FFDB89;
 }
+
+@media only screen and (max-width: 992px) {
+    .menu_title {
+        font-size: 1.4rem;
+    }
+    
+    .filter_btn {
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+}

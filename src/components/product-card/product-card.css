@@ -3,6 +3,7 @@
 .single_product {
     border-radius: 10px;
     cursor: pointer;
+    animation: animate 0.5s ease-in;
 }
 
 .single_product:hover {
@@ -45,4 +46,28 @@
     justify-content: center;
     cursor: pointer;
     background: #FFDB89;
+}
+
+@keyframes animate {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .product_content h6 {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 0.8rem;
+    }
+
+    .price span {
+        font-size: 0.9rem;
+    }
 }
