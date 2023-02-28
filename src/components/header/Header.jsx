@@ -1,6 +1,6 @@
 import './header.css';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Container } from 'reactstrap';
 
 const navLinks = [
@@ -10,20 +10,20 @@ const navLinks = [
     },
     {
         display: 'About',
-        url: '#'
+        url: '#about'
     },
 
     {
         display: 'Menu',
-        url: '#'
+        url: '#menu'
     },
     {
         display: 'Recipes',
-        url: '#'
+        url: '#testi'
     },
     {
         display: 'Contact',
-        url: '#'
+        url: '#contact'
     },
 ]
 
@@ -32,6 +32,8 @@ const Header = () => {
 const menuRef = useRef();
 
 const menuToggle = () => menuRef.current.classList.toggle('active_menu');
+
+let [ cartOpen, setCartOpen ] = useState(false);
 
   return (
     <header className='header'>
@@ -65,10 +67,15 @@ const menuToggle = () => menuRef.current.classList.toggle('active_menu');
                 </div>
 
                 <div>
-                    <span className='cart_icon'>
+                    <span onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`cart_icon ${cartOpen && 'active'}`}>
                     <i class="ri-shopping-basket-2-fill"></i>
                     <span className='badge'>2</span>
                     </span>
+                    {cartOpen && (
+                        <div className='cart_menu'>
+
+                        </div>
+                    )}
                 </div>
                 
                 <div className='mobile_menu'>
@@ -81,4 +88,4 @@ const menuToggle = () => menuRef.current.classList.toggle('active_menu');
   )
 }
 
-export default Header
+export default Header;

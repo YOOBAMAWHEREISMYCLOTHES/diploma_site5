@@ -21,7 +21,7 @@ const settings = {
 
 }
 
-  return <section>
+  return <section id='testi'>
     <Container>
         <Row>
             <Col lg='8' sm='12' md='12' className='m-auto'>

@@ -47,7 +47,7 @@ const MenuPack = () => {
   }, [filter])
 
   return (
-  <section>
+  <section id='menu'>
   <Container>
     <Row>
         <Col lg='12' className='text-center mb-4'>

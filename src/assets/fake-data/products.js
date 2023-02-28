@@ -94,7 +94,7 @@ export const fastFoodProducts = [
 
 export const riceMenuProducts = [
   {
-    id: "12",
+    id: "13",
     title: "Fried Rice",
     price: 95,
     imgUrl: salad,

@@ -61,7 +61,7 @@ const footerLinks = [
 ]
 
 const Footer = () => {
-  return ( <footer className='footer'>
+  return ( <footer id='contact' className='footer'>
           <div className='footer_top'>
           <Container>
             <Row>
@@ -126,7 +126,7 @@ const Footer = () => {
           <Container>
             <Row>
               <Col lg='12'>
-              <p>Copyright 2022, developed by Bohdan Dovhyi. All rights Reserved</p>
+              <p>Copyright © 2023, developed by <a href='https://www.linkedin.com/in/bohdan-dovhyi-4a1628216/'>Bohdan Dovhyi</a>. All rights reserved.</p>
               </Col>
             </Row>
           </Container>

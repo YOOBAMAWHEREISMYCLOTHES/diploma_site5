@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     z-index: 9;
+    background: rgb(161,21,207);
 }
 
 .navigation {
@@ -74,6 +75,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cart_icon:hover,
+.cart_icon.active {
+    background: #FFF;
+    transform: scale(1.1);
+}
+
+.cart_menu {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 450px;
+    min-height: 100px;
+    background: #FFDB89;
+    box-shadow: 5px 5px 10px -5px grey;
+    animation: animate 0.1s ease;
+
 }
 
 .badge {
@@ -86,7 +107,6 @@
     font-weight: 700;
 }
 
-/*==================Make it Responsive==================*/
 
 @media only screen and (max-width:992px) {
     .nav_menu {
@@ -106,8 +126,9 @@
         width: 250px;
         height: 100%;
         z-index: 100;
-        background: #FFDB89;
-        flex-direction: column;
+        background: rgba(161,21,207, 0.8);
+        backdrop-filter: blur(8px);
+        flex-direction: column !important;
         box-shadow: 5px 5px 15px -5px red;
         justify-content: center !important;
         padding: 0px 20px;
