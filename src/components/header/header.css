@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: 9;
-    background: rgb(161,21,207);
+    background: rgb(199, 55, 50);
 }
 
 .navigation {
@@ -28,34 +28,15 @@
 }
 
 .nav_item a{
-    color: black;
+    color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .nav_item a:hover {
-    color: #FFDB89;
+    color: #ff9393;
 }
 
-.custom_search {
-    display: flex;
-    align-items: center;
-    padding: 10px 25px;
-    height: 35px;
-    border-radius: 50px;
-    background-color: #FFF;
-}
-
-.custom_search input {
-    border: none;
-    outline: none;
-    background: transparent;
-    color: black;
-}
-
-.custom_search span i {
-    cursor: pointer;
-}
 
 .mobile_menu span i {
     font-size: 1.3rem;
@@ -65,37 +46,6 @@
     display: none;
 }
 
-.cart_icon {
-    position: relative;
-    z-index: 999;
-    width: 40px;
-    height: 30px;
-    border-radius: 5px;
-    background: #FFDB89;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.cart_icon:hover,
-.cart_icon.active {
-    background: #FFF;
-    transform: scale(1.1);
-}
-
-.cart_menu {
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    width: 450px;
-    min-height: 100px;
-    background: #FFDB89;
-    box-shadow: 5px 5px 10px -5px grey;
-    animation: animate 0.1s ease;
-
-}
 
 .badge {
     position: absolute;
@@ -126,8 +76,7 @@
         width: 250px;
         height: 100%;
         z-index: 100;
-        background: rgba(161,21,207, 0.8);
-        backdrop-filter: blur(8px);
+        background: rgb(199, 55, 50);
         flex-direction: column !important;
         box-shadow: 5px 5px 15px -5px red;
         justify-content: center !important;
@@ -149,17 +98,9 @@
         padding: 10px 0px;
     }
 
-    .custom_search {
-        border: 1px solid white;
-        background-color: #FFDB89;
-        padding: 5px 15px;
-        font-size: 0.9rem;
-        height: 30px;
-        margin-top: 15px;
-    }
-
     .mobile_menu {
         display: block;
+        transition: 0.3s;
     }
 
     .logo h2 {
@@ -167,5 +108,6 @@
     }
     .active_menu {
         display: block;
+        transition: 0.3s;
     }
 }

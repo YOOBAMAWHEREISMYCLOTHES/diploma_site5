@@ -21,53 +21,44 @@ const settings = {
 
 }
 
-  return <section id='testi'>
+  return <section>
     <Container>
         <Row>
             <Col lg='8' sm='12' md='12' className='m-auto'>
 
             <div className='slider_wrapper d-flex align-items-center gap-5'>
             <div className='slider_content w-50'>
-            <h2 className='mb-4'>What our customers are saying</h2>
+            <h2 className='mb-4'>Що про нас кажуть експерти?</h2>
                 <Slider {...settings}>
                 <div>
                     <div className='single_testimonial'>
-                    <p className='review_content'>Ex ut nostrud laborum reprehenderit dolor ad.
-                     Aliqua id dolor cillum quis nostrud do aliqua voluptate qui reprehenderit irure laborum. 
-                     Anim sunt fugiat esse nulla laborum in elit excepteur id mollit pariatur duis laborum. 
-                     Dolor id quis velit ut culpa irure est.
+                    <p className='review_content'>Цей ресторан української кухні є справжнім джерелом насолоди для справжніх гурманів! Я дуже вражений вишуканою атмосферою та незабутніми смаками, які пропонуються тут.
                      </p>
 
-                     <h6>John Doe</h6>
-                     <p>Web Developer</p>
+                     <h6>Анатолій Григоренко</h6>
+                     <p>Ресторанний критик</p>
 
                     </div>
                 </div>
 
                 <div>
                     <div className='single_testimonial'>
-                    <p className='review_content'>Ex ut nostrud laborum reprehenderit dolor ad.
-                     Aliqua id dolor cillum quis nostrud do aliqua voluptate qui reprehenderit irure laborum. 
-                     Anim sunt fugiat esse nulla laborum in elit excepteur id mollit pariatur duis laborum. 
-                     Dolor id quis velit ut culpa irure est.
+                    <p className='review_content'>Я не можу не відзначити надзвичайно доброзичливий та уважний персонал, який зробив мій візит відмінним та незабутнім.
                      </p>
 
-                     <h6>John Doe</h6>
-                     <p>Web Developer</p>
+                     <h6>Юлія Мартинюк</h6>
+                     <p>Ресторанний критик</p>
 
                     </div>
                 </div>
 
                 <div>
                     <div className='single_testimonial'>
-                    <p className='review_content'>Ex ut nostrud laborum reprehenderit dolor ad.
-                     Aliqua id dolor cillum quis nostrud do aliqua voluptate qui reprehenderit irure laborum. 
-                     Anim sunt fugiat esse nulla laborum in elit excepteur id mollit pariatur duis laborum. 
-                     Dolor id quis velit ut culpa irure est.
+                    <p className='review_content'>Я бажаю цьому ресторану подальших успіхів та обов'язково пораджуватиму його всім своїм знайомим, які бажають спробувати справжні українські страви в прекрасній атмосфері!
                      </p>
 
-                     <h6>John Doe</h6>
-                     <p>Web Developer</p>
+                     <h6>Віталій Кульчицький</h6>
+                     <p>Ресторанний критик</p>
 
                     </div>
                 </div>

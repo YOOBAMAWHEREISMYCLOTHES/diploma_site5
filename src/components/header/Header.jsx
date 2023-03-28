@@ -1,31 +1,32 @@
 import './header.css';
 
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { Container } from 'reactstrap';
 
 const navLinks = [
     {
-        display: 'Home',
+        display: 'Головна',
         url: '#'
     },
     {
-        display: 'About',
+        display: 'Про нас',
         url: '#about'
     },
 
     {
-        display: 'Menu',
+        display: 'Меню',
         url: '#menu'
     },
     {
-        display: 'Recipes',
-        url: '#testi'
+        display: 'Забронювати',
+        url: '#book'
     },
     {
-        display: 'Contact',
+        display: 'Контакти',
         url: '#contact'
     },
-]
+];
+
 
 const Header = () => {
 
@@ -33,7 +34,6 @@ const menuRef = useRef();
 
 const menuToggle = () => menuRef.current.classList.toggle('active_menu');
 
-let [ cartOpen, setCartOpen ] = useState(false);
 
   return (
     <header className='header'>
@@ -41,7 +41,7 @@ let [ cartOpen, setCartOpen ] = useState(false);
             <div className="navigation">
                 <div className="logo">
                     <h2 className=' d-flex align-items-center gap-1'>
-                        <span><i class="ri-restaurant-fill"></i></span> Chef Food
+                        <span><i class="ri-restaurant-line"></i></span> Колиба
                     </h2>
                 </div>
                 <div className='nav_menu' ref={menuRef}>
@@ -58,24 +58,9 @@ let [ cartOpen, setCartOpen ] = useState(false);
                 </ul>
 
                 <div className='menu_right'>
-                    <div className='custom_search'>
-                        <input type='text' placeholder='Search item...' />
-                        <span><i class="ri-search-2-line"></i></span>
-                    </div>
+                   
                 </div>
                 </div>
-                </div>
-
-                <div>
-                    <span onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`cart_icon ${cartOpen && 'active'}`}>
-                    <i class="ri-shopping-basket-2-fill"></i>
-                    <span className='badge'>2</span>
-                    </span>
-                    {cartOpen && (
-                        <div className='cart_menu'>
-
-                        </div>
-                    )}
                 </div>
                 
                 <div className='mobile_menu'>

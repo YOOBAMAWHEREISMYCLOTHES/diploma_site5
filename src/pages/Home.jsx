@@ -7,6 +7,8 @@ import MenuPack from '../components/menu-pack/MenuPack';
 import Tesnimonials from '../components/testimonials/Tesnimonials';
 import Download from '../components/download-section/Download';
 import Footer from '../components/footer/Footer';
+import Reservation from '../components/reservation/Reservation';
+import People from '../components/people/People';
 
 const Home = () => {
   return <Fragment>
@@ -14,12 +16,14 @@ const Home = () => {
     <HeroSlider />
     <PopularMenu />
     <ChooseUs />
+    <People />
     <MenuPack />
     <Tesnimonials />
+    <Reservation />
     <Download />
     <Footer />
   </Fragment>
   
 }
 
-export default Home
+export default Home;

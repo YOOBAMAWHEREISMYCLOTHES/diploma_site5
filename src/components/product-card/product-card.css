@@ -37,16 +37,8 @@
     font-weight: 500;
 }
 
-.shopping_icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background: #FFDB89;
-}
+
+
 
 @keyframes animate {
     from {

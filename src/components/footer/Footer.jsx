@@ -7,25 +7,25 @@ import './footer.css';
 const footerQuickLinks = [
 
   {
-    display: 'Terms & Conditions',
+    display: 'Правила та умови',
     url: '#'
 
   },
 
   {
-    display: 'Privacy Policy',
+    display: 'Політика конфіденційності',
     url: '#'
 
   },
 
   {
-    display: 'Return & Refund',
+    display: 'Повернення та відшкодування',
     url: '#'
 
   },
 
   {
-    display: 'Payment Method',
+    display: 'Способи оплати',
     url: '#'
 
   },
@@ -35,26 +35,26 @@ const footerQuickLinks = [
 const footerLinks = [
 
   {
-    display: 'About Us',
+    display: 'Головна',
     url: '#'
 
   },
 
   {
-    display: 'Menu',
-    url: '#'
+    display: 'Про нас',
+    url: '#about'
 
   },
 
   {
-    display: 'Recipes',
-    url: '#'
+    display: 'Меню',
+    url: '#menu'
 
   },
 
   {
-    display: 'Contact',
-    url: '#'
+    display: 'Забронювати',
+    url: '#testi'
 
   },
 
@@ -68,14 +68,14 @@ const Footer = () => {
               <Col lg='4' md='4' sm='6'>
               <div className="logo">
                     <h2 className=' d-flex align-items-center gap-1 mb-4'>
-                        <span><i class="ri-restaurant-fill"></i></span> Chef Food
+                        <span><i class="ri-restaurant-line"></i></span> Колиба
                     </h2>
-                    <p>Commodo culpa velit cupidatat excepteur amet eiusmod est laborum esse nostrud eiusmod labore.</p>
+                    <p>Наша мета - передати гостям аутентичний дух української культури та традицій. Ми створюємо атмосферу, де можна відчути та познайомитись з культурою та кулінарними традиціями України.</p>
                 </div>
               </Col>
 
               <Col lg='3' md='4' sm='6'>
-                  <h5 className='footer_link-title'>Info Links</h5>
+                  <h5 className='footer_link-title'>Інформація</h5>
 
                   <ListGroup>
 
@@ -90,7 +90,7 @@ const Footer = () => {
               </Col>
 
               <Col lg='2' md='4' sm='6'>
-                  <h5 className='footer_link-title'>Quick Links</h5>
+                  <h5 className='footer_link-title'>Навігація</h5>
 
                   <ListGroup>
 
@@ -105,17 +105,17 @@ const Footer = () => {
               </Col>
 
               <Col lg='3' md='4' sm='6'>
-              <h5 className='footer_link-title'>Contact</h5>
+              <h5 className='footer_link-title'>Контакти</h5>
 
               <ListGroup>
                 <ListGroupItem className='link_item d-flex align-items-center gap-3'>
-                <i class="ri-map-pin-fill"></i>Kyiv, Ukraine</ListGroupItem>
+                <i class="ri-map-pin-fill"></i><a href='https://goo.gl/maps/zxpYG4xnKrfA2MAb7'>Київ, Україна</a></ListGroupItem>
 
                 <ListGroupItem className='link_item d-flex align-items-center gap-3'>
-                <i class="ri-mail-fill"></i>example@gmail.com</ListGroupItem>
+                <i class="ri-mail-fill"></i><a href='mailto:kolybarestaurant@gmail.com'>kolybarestaurant@gmail.com</a></ListGroupItem>
 
                 <ListGroupItem className='link_item d-flex align-items-center gap-3'>
-                <i class="ri-phone-fill"></i>+3800992552525</ListGroupItem>
+                <i class="ri-phone-fill"></i><a href='tel:+3800992552525'>+3800992552525</a></ListGroupItem>
               </ListGroup>
               </Col>
 

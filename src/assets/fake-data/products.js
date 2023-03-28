@@ -16,7 +16,7 @@ export const popularMenuFood = [
   {
     id: "01",
     title: "Vegetable Salad",
-    price: 25,
+    price: 150,
     imgUrl: fastFood03,
   },
   {
@@ -29,14 +29,14 @@ export const popularMenuFood = [
   {
     id: "03",
     title: "Whipped Cream",
-    price: 45,
+    price: 115,
     imgUrl: dessert02,
   },
 
   {
     id: "04",
     title: "Pizza",
-    price: 75,
+    price: 190,
     imgUrl: pizzaImg01,
   },
 ];

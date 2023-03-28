@@ -5,7 +5,7 @@ import './product-card.css';
 
 const ProductCard = (props) => {
 
-const {title, imgUrl, price} = props.item
+const { title, imgUrl, price } = props.item;
 
   return (
     <div className='single_product'>
@@ -25,12 +25,13 @@ const {title, imgUrl, price} = props.item
                             <h6>{title}</h6>
 
                             <div className=' d-flex align-items-center justify-content-between'>
-                                <span className='price d-flex align-items-center'> Price $<span>{price}</span></span>
-                                <span className='shopping_icon'><i class="ri-shopping-cart-2-fill"></i></span>
+                                <span className='price d-flex align-items-center'> Ціна: ₴<span>{price}</span></span>
+                                
+                                
                             </div>
                         </div>
                     </div>
   )
 }
 
-export default ProductCard
+export default ProductCard;

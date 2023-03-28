@@ -8,9 +8,8 @@ import { fastFoodProducts, riceMenuProducts, pizzaProducts, dessertProducts, cof
 
 const MenuPack = () => {
 
-  const [filter, setFilter] = useState('RICE-MENU');
-  const [products, setProducts] = useState(riceMenuProducts);
-
+  const [filter, setFilter] = useState('FAST-FOOD');
+  const [products, setProducts] = useState(fastFoodProducts);
   
   useEffect(()=>{
   
@@ -51,25 +50,25 @@ const MenuPack = () => {
   <Container>
     <Row>
         <Col lg='12' className='text-center mb-4'>
-        <h3 className='menu_title'>Our Menu Pack</h3>
+        <h3 className='menu_title'>Наше меню</h3>
         </Col>
         <Col lg='12' className='text-center mb-5'>
         <button className={`filter_btn ${filter === 'FAST-FOOD' ? 'active_btn' : ''}`}
-         onClick={()=> setFilter('FAST-FOOD')}>Fast Food</button>
+         onClick={()=> setFilter('FAST-FOOD')}>Перші страви</button>
         <button className={`filter_btn ${filter === 'RICE-MENU' ? 'active_btn' : ''}`}
-         onClick={()=> setFilter('RICE-MENU')}>Rice Menu</button>
+         onClick={()=> setFilter('RICE-MENU')}>Другі страви</button>
         <button className={`filter_btn ${filter === 'PIZZA' ? 'active_btn' : ''}`} 
-         onClick={()=> setFilter('PIZZA')}>Pizza</button>
+         onClick={()=> setFilter('PIZZA')}>Піца</button>
         <button className={`filter_btn ${filter === 'DESSERTS' ? 'active_btn' : ''}`}
-         onClick={()=> setFilter('DESSERTS')}>Desserts</button>
+         onClick={()=> setFilter('DESSERTS')}>Десерти</button>
         <button className={`filter_btn ${filter === 'COFFEE' ? 'active_btn' : ''}`}
-         onClick={()=> setFilter('COFFEE')}>Coffee</button>
+         onClick={()=> setFilter('COFFEE')}>Напої</button>
         </Col>
 
         {products.map((item) => (
             <Col lg='3' md='4' sm='6' xs='6' key={item.id} className='mb-4'>
             {''}
-            <ProductCard item={item} />
+            <ProductCard key={item.id} item={item} />
             </Col>
           ))}
     </Row>

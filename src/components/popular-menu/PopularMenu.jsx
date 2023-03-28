@@ -11,7 +11,7 @@ const PopularMenu = () => {
         <Row>
             <Col lg='12' className='mb-5'>
                 <h2 className='popular_menu_title'>
-                    Popular Food menu
+                    Популярні страви
                 </h2>
             </Col>
 

@@ -1,13 +1,13 @@
 .btn {
     padding: 7px 25px;
     border-radius: 5px;
-    background: #FFDB89;
-    color: black;
+    background: rgb(199, 55, 50);;
+    color: white;
     font-size: 0.9rem;
     margin-top: 30px;
 }
 .btn:hover {
-    color: bisque;
+    color: black;
 }
 
 @media only screen and (max-width: 992px) {

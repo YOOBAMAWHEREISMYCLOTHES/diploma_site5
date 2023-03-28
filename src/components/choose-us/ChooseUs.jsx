@@ -15,23 +15,23 @@ const ChooseUs = () => {
 
         <Col lg='6' md='6'>
         <div className='choose_content'>
-        <h4>Who we are?</h4>
-        <h2>Take a look at benefits we offer you</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias.</p>
+        <h4>Хто ми?</h4>
+        <h2>Ознайомтеся з нашими пропозиціями</h2>
+        <p>У нашому ресторані ми прагнемо забезпечити найкращий сервіс та атмосферу для наших гостей. </p>
         </div>
 
         <div className='features mt-4'>
             <div className='feature1 d-flex align-items-center gap-5'>
             <div className='single_feature'>
             <span><i class="ri-truck-fill"></i></span>
-            <h6>Free Home Delivery</h6>
-            <p>Lorem ipsum sit dolor amet.</p>
+            <h6>Безкоштовна доставка</h6>
+            <p>Працює безкоштовна доставка додому.</p>
             </div>
 
             <div className='single_feature'>
             <span className='feature_icon_two'><i class="ri-money-dollar-box-fill"></i></span>
-            <h6>Return & refund</h6>
-            <p>Lorem ipsum sit dolor amet.</p>
+            <h6>Повернення коштів</h6>
+            <p>Можливість повернення коштів.</p>
             </div>
 
             </div>
@@ -39,14 +39,14 @@ const ChooseUs = () => {
             <div className='feature1 mt-3 d-flex align-items-center gap-5'>
             <div className='single_feature'>
             <span className='feature_icon_three'><i class="ri-bank-card-fill"></i></span>
-            <h6>Secure Payment</h6>
-            <p>Lorem ipsum sit dolor amet.</p>
+            <h6>Безпечна оплата</h6>
+            <p>Забезпечуємо безпечну оплату карткою</p>
             </div>
 
             <div className='single_feature'>
             <span className='feature_icon_four'><i class="ri-24-hours-line"></i></span>
-            <h6>24/7 Hours Support</h6>
-            <p>Lorem ipsum sit dolor amet.</p>
+            <h6>Підтримка 24/7</h6>
+            <p>Розраховуйте на якісну підтримку</p>
             </div>
 
             </div>

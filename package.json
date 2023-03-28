@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^2.9.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "google-map-react": "^2.2.0",
+    "libphonenumber-js": "^1.10.21",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.3",
     "react-router": "^6.8.1",
     "react-router-dom": "^6.8.1",
     "react-router-hash": "^3.0.3",
@@ -20,7 +24,8 @@
     "remixicon": "^2.5.0",
     "sass": "^1.58.3",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
