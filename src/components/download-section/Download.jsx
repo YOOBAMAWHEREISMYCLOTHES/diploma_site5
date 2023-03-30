@@ -22,11 +22,11 @@ const Download = () => {
     <p>Там ми регулярно ділимося свіжими новинками та акціями, додаємо нові фото та відео, щоб ви завжди залишались в курсі наших останніх новин.</p>
 
     <div className='app_btns d-flex align-items-center gap-5 mt-4'>
-    <button className='btn_apple d-flex align-items-center gap-3'>
+    <button className='btn_instagram d-flex align-items-center gap-3'>
     <i class="ri-instagram-line"></i><a href='#'>Instagram</a>
     </button>
 
-    <button className='btn_google d-flex align-items-center gap-3'>
+    <button className='btn_twitter d-flex align-items-center gap-3'>
     <i class="ri-twitter-line"></i><a href='#'>Twitter</a>
     </button>
 

@@ -29,10 +29,10 @@ const HeroSlider = () => {
                         <div className='slider_content w-50 ps-2'>
                         <h2 className='mb-3'>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button className='btn' href='#menu'>Перейти до меню</button>
+                        <button className='btn' onClick='#menu'><a href='#menu'>Перейти до меню</a></button>
                         </div>
                         <div className='slider_img w-50'>
-                        <img src={item.imgUrl} alt='' className='w-100'/>
+                        <img src={item.imgUrl} alt='' className='slider_image w-100'/>
                         </div>
                         </div>
                     </div>

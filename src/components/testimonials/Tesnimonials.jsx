@@ -4,7 +4,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './testimonials.css';
 
-import testimonialImg from '../../assets/images/review1.png';
+import testimonialImg from '../../assets/images/review1.jpg';
 
 import Slider from 'react-slick';
 
@@ -66,7 +66,7 @@ const settings = {
             </div>
 
             <div className='slider_img w-50'>
-            <img src={testimonialImg} alt='' className='w-100' />
+            <img src={testimonialImg} alt='' className='testi_img w-100' />
             </div>
             </div> 
             </Col>

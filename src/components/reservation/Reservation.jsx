@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { useForm } from 'react-hook-form';
 import './reservation.css';
 
-import pastaImg from '../../assets/images/pasta.png';
+import table from '../../assets/images/table.jpg';
 
 
 const Reservation = () => {
@@ -34,7 +34,7 @@ const Reservation = () => {
         <Row>
             <Col lg='6' md='6'>
             <div className='form_img w-100'>
-            <img src={pastaImg} alt='' className='w-100'/>
+            <img src={table} alt='' className='table_image w-100'/>
             </div>
             </Col>
 

@@ -1,6 +1,6 @@
-import sliderImg01 from "../images/slider1.png";
-import sliderImg02 from "../images/slider2.png";
-import sliderImg03 from "../images/slider03.png";
+import sliderImg01 from "../images/slider1.jpg";
+import sliderImg02 from "../images/slider2.jpg";
+import sliderImg03 from "../images/slider3.jpg";
 
 
 export const sliderData = [

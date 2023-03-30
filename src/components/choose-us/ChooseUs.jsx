@@ -3,17 +3,17 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './choose-us.css';
-import pastaImg from '../../assets/images/pasta.png';
+import whoweare from '../../assets/images/whoweare.jpg';
 
 const ChooseUs = () => {
   return <section id='about'>
     <Container>
        <Row>
         <Col lg='6' md='6'>
-        <img src={pastaImg} alt='' className='w-100' />
+        <img src={whoweare} alt='' className='whoweare_image w-100' />
         </Col>
 
-        <Col lg='6' md='6'>
+        <Col lg='6' md='6' className='choose_column'>
         <div className='choose_content'>
         <h4>Хто ми?</h4>
         <h2>Ознайомтеся з нашими пропозиціями</h2>

@@ -6,6 +6,10 @@
     padding: 20px;
 }
 
+.testi_img {
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 992px) {
 
     .slider_content {

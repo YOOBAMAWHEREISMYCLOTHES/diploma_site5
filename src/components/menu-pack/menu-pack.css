@@ -1,7 +1,7 @@
 
 
 .filter_btn {
-    border: 1px solid rgb(199, 55, 50);
+    border: 1px solid #49111c;
     padding: 7px 25px;
     background: transparent;
     margin-left: 15px;
@@ -9,16 +9,21 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    font-family: "Mulish", sans-serif;
+}
+
+.menu_title {
+    color: black;
 }
 
 .filter_btn:hover {
-    background: rgb(199, 55, 50);
-    color: white;
+    background: #49111c;
+    color: #f2f4f3;
 }
 
 .active_btn {
-    background: rgb(199, 55, 50);
-    color: white;
+    background: #49111c;
+    color: #f2f4f3;
 }
 
 @media only screen and (max-width: 992px) {

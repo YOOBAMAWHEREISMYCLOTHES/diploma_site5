@@ -1,11 +1,9 @@
 
-
 .app_container {
     border-radius: 10px;
 }
 
 .app_img {
-    margin-bottom: -100px;
 }
 
 .app_content h5 {
@@ -20,28 +18,46 @@
     padding-top: 50px;
 }
 
-.app_content p {
-
-}
-
-.btn_apple {
-    border: none;
-    padding: 7px 25px;
-    border-radius: 5px;
-}
-
-.btn_google {
-    border: none;
-    padding: 7px 25px;
-    border-radius: 5px;
-}
-
-.btn_google i {
-
-}
-
-.btn_apple:hover a {
+a:hover {
     color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.btn_instagram {
+    border: transparent;
+    padding: 7px 25px;
+    border-radius: 5px;
+    background: #C13584;
+    color: #f2f4f3;
+    transition: 0.5s ease-in-out;
+}
+
+.btn_instagram i {
+    font-size: 20px;
+}
+
+.btn_twitter i {
+    font-size: 20px;
+}
+
+.btn_twitter {
+    border: transparent;
+    padding: 7px 25px;
+    border-radius: 5px;
+    background: #1DA1F2;
+    color: #f2f4f3;
+    transition: 0.5s ease-in-out;
+}
+
+.btn_twitter:hover {
+    color: black;
+    background: transparent;
+    
+}
+
+.btn_instagram:hover {
+    color: black;
+    background: transparent;
 }
 
 .btn_google:hover a {

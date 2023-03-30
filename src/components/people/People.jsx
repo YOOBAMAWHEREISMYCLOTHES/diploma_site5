@@ -24,12 +24,12 @@ const People = () => {
                 peopleData.map(item => (
                     <div key={item.id}>
                         <div className='slider_wrapper d-flex align-items-center justify-content-between pt-5'>
-                        <div className='slider_content w-50 ps-2'>
+                        <div className='slider_content w-100 ps-2'>
                         <h2 className='mb-3'>{item.title}</h2>
                         <p>{item.desc}</p>
                         </div>
                         <div className='slider_img w-50'>
-                        <img src={item.imgUrl} alt='' className='w-100'/>
+                        <img src={item.imgUrl} alt='' className='people_image w-100'/>
                         </div>
                         </div>
                     </div>

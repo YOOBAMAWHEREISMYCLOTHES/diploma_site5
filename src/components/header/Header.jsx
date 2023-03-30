@@ -39,10 +39,10 @@ const menuToggle = () => menuRef.current.classList.toggle('active_menu');
     <header className='header'>
         <Container>
             <div className="navigation">
-                <div className="logo">
-                    <h2 className=' d-flex align-items-center gap-1'>
+                <div className="logo_h">
+                    <h3 className=' d-flex align-items-center gap-1'>
                         <span><i class="ri-restaurant-line"></i></span> Колиба
-                    </h2>
+                    </h3>
                 </div>
                 <div className='nav_menu' ref={menuRef}>
                 <div className='nav_list_wrapper d-flex align-items-center gap-5'>

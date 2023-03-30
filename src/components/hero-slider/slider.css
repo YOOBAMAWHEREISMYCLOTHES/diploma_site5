@@ -1,13 +1,22 @@
+.slider_wrapper {
+    margin-left: 2rem;
+}
+
 .btn {
     padding: 7px 25px;
     border-radius: 5px;
-    background: rgb(199, 55, 50);;
-    color: white;
+    background: #49111c;;
+    color: #f2f4f3;
     font-size: 0.9rem;
     margin-top: 30px;
+    transition: 0.5s ease-in-out;
 }
 .btn:hover {
     color: black;
+}
+
+.slider_image {
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -33,5 +42,9 @@
 
     .slick-prev, .slick-next {
         display: none !important;
+    }
+
+    .slider_wrapper {
+        margin-left: 0rem;
     }
 }

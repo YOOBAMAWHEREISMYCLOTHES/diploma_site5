@@ -22,10 +22,10 @@ const { title, imgUrl, price } = props.item;
                             <span><i class="ri-star-fill"></i></span>
                             </div>
 
-                            <h6>{title}</h6>
+                            <h5>{title}</h5>
 
-                            <div className=' d-flex align-items-center justify-content-between'>
-                                <span className='price d-flex align-items-center'> Ціна: ₴<span>{price}</span></span>
+                            <div className='price d-flex align-items-center justify-content-between'>
+                                <span className='d-flex align-items-center'> Ціна: ₴<span>{price}</span></span>
                                 
                                 
                             </div>

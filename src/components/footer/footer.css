@@ -1,20 +1,111 @@
 
 .footer {
     padding-bottom: 0;
+    background: #a9927d;
 }
 
-.footer_link-title {
+.logo h3 {
+    color: #5e503f;
+}
 
+.logo p {
+    color: #5e503f;
 }
 
 .link_item {
     padding-left: 0;
     background: transparent;
+    transition: 0.5s ease-in-out;
+    border-color: transparent;
+}
+
+.link_item i {
+    font-size: 20px;
 }
 
 .link_item a {
-    color: black;
+    color: unset;
 }
+
+.link_item a:hover {
+    color: #f2f4f3 !important;
+}
+
+
+.link_item:hover {
+    background: #49111c;
+    color: #f2f4f3 !important;
+}
+
+.link_item_f {
+    padding-left: 0;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-color: transparent;
+}
+
+.link_item_f i {
+    font-size: 20px;
+}
+
+.link_item_t {
+    padding-left: 0;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-color: transparent;
+}
+
+.link_item_t i {
+    font-size: 20px;
+}
+
+.link_item_l {
+    padding-left: 0;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-color: transparent;
+}
+
+.link_item_l i {
+    font-size: 20px;
+}
+
+.link_item_f:hover {
+    background: #4267B2;
+    transition: 0.5s ease;
+    color: #f2f4f3 !important;
+    cursor: pointer;
+}
+
+.link_item_t:hover {
+    background: #1DA1F2;
+    transition: 0.5s ease;
+    color: #f2f4f3 !important;
+    cursor: pointer;
+}
+
+.link_item_l:hover {
+    background: #0077b5;
+    transition: 0.5s ease;
+    color: #f2f4f3 !important;
+    cursor: pointer;
+}
+
+.link_item_f a:hover {
+    color: #f2f4f3;
+}
+
+.link_item_t a:hover {
+    color: #f2f4f3;
+}
+
+.link_item_l a:hover {
+    color: #f2f4f3;
+}
+
 
 .footer_bottom {
     padding: 20px 0px;
@@ -27,12 +118,39 @@
     margin-bottom: 0;
 }
 
+.copyright p{
+    color: #5e503f;
+}
+
+.copyright a {
+    color: #49111c;
+    transition: 0.5s ease;
+}
+
+.copyright a:hover {
+    color:#f2f4f3;
+}
+
+
+
 @media only screen and (max-width: 992px) {
     .link_item a {
         font-size: 0.8rem;
     }
 
     .link_item {
+        font-size: 0.8rem;
+    }
+
+    .link_item_f {
+        font-size: 0.8rem;
+    }
+
+    .link_item_t {
+        font-size: 0.8rem;
+    }
+
+    .link_item_l {
         font-size: 0.8rem;
     }
 

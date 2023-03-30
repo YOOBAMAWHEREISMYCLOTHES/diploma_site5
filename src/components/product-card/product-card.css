@@ -16,12 +16,13 @@
     padding-bottom: 15px;
 }
 
-.product_content h6 {
+.product_content h5 {
     text-align: center;
+    font-family: "Mulish", sans-serif;
 }
 
 .rating span i {
-
+    color: #49111c;
 }
 
 .rating {
@@ -29,12 +30,13 @@
 }
 
 .price {
-
+    font-family: "Mulish", sans-serif;
 }
 
 .price span {
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 

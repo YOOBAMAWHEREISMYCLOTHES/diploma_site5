@@ -1,144 +1,176 @@
 // ======= imported  all products images from images folder ========
-import pizzaImg01 from "../images/pizza1.png";
+import peasoup from "../images/peasoup.png";
+import borscht from "../images/borscht.png";
+import chickensoup from "../images/chickensoup.png"
+import fishsoup from "../images/fishsoup.png";
+import tomatosoup from "../images/tomatosoup.png";
+import mushroomsoup from "../images/mushroomsoup.png";
+import saltpan from "../images/saltpan.png";
+import greenborscht from "../images/greenborscht.png";
 
-import fastFood03 from "../images/chicken3.png";
-import fastFood04 from "../images/chicken4.png";
+import varenyky from "../images/varenyky.png";
+import kyivchop from "../images/kyivchop.png";
+import villagepotato from "../images/villagepotato.png";
+import chicken from "../images/chicken.png";
+import steak from "../images/steak.png";
+import pasta from '../images/pasta.png';
+import rice from '../images/rice.png';
+import salad from '../images/salad.png';
 
-import dessert02 from "../images/dessert02.png";
-import dessert03 from "../images/dessert2.png";
-import dessert04 from "../images/dessert3.png";
+import pepperoni from '../images/pepperoni.png';
+import  greenpepperpizza from '../images/greenpepperpizza.png';
+import  blackolivespizza from '../images/blackolivespizza.png';
+import spicypizza from '../images/spicypizza.png';
+import mayopizza from '../images/mayopizza.png';
+import fourcheesepizza from '../images/fourcheesepizza.png';
+import hawaiipizza from '../images/hawaiipizza.png';
+import italianpizza from '../images/italianpizza.png';
 
-import coffeeImg02 from "../images/coffe2.png";
+import squarecake from '../images/squarecake.png';
+import panakotta from '../images/panakotta.png';
+import pahlava from '../images/pahlava.png';
+import orangecake from '../images/orangecake.png';
+import blackcake from '../images/blackcake.png';
+import redcake from '../images/redcake.png';
+import pancakes from '../images/pancakes.png';
+import icecreaminpie from '../images/icecreaminpie.png';
 
-import salad from "../images/slider2.png";
+import coffeelatte from "../images/coffeelatte.png";
+import cappuccino from "../images/cappuccino.png";
+import espresso from "../images/espresso.png";
+import hotchokolate from "../images/hotchokolate.png";
+import blacktea from "../images/blacktea.png";
+import greentea from "../images/greentea.png";
+import lightgreentea from "../images/lightgreentea.png";
+import icetea from "../images/icetea.png";
 
 export const popularMenuFood = [
   {
     id: "01",
-    title: "Vegetable Salad",
-    price: 150,
-    imgUrl: fastFood03,
+    title: "Борщ",
+    price: 75,
+    imgUrl: borscht,
   },
   {
     id: "02",
-    title: "Chicken",
-    price: 250,
-    imgUrl: fastFood04,
+    title: "Вареники",
+    price: 55,
+    imgUrl: varenyky,
   },
 
   {
     id: "03",
-    title: "Whipped Cream",
-    price: 115,
-    imgUrl: dessert02,
+    title: "Пепероні",
+    price: 135,
+    imgUrl: pepperoni,
   },
 
   {
     id: "04",
-    title: "Pizza",
-    price: 190,
-    imgUrl: pizzaImg01,
+    title: "Тістечка",
+    price: 50,
+    imgUrl: squarecake,
   },
 ];
 
 export const fastFoodProducts = [
   {
     id: "05",
-    title: "Burger",
-    price: 95,
-    imgUrl: fastFood04,
+    title: "Борщ",
+    price: 75,
+    imgUrl: borscht,
   },
   {
     id: "06",
-    title: "Chicken",
-    price: 250,
-    imgUrl: fastFood04,
+    title: "Гороховий суп",
+    price: 45,
+    imgUrl: peasoup,
   },
   {
     id: "07",
-    title: "Grill Chicken",
-    price: 195,
-    imgUrl: fastFood04,
+    title: "Курячий суп",
+    price: 55,
+    imgUrl: chickensoup,
   },
   {
     id: "08",
-    title: "Barbeque",
-    price: 275,
-    imgUrl: fastFood04,
+    title: "Уха",
+    price: 70,
+    imgUrl: fishsoup,
   },
   {
     id: "09",
-    title: "Pizza",
-    price: 275,
-    imgUrl: fastFood04,
+    title: "Томатний суп",
+    price: 45,
+    imgUrl: tomatosoup,
   },
   {
     id: "10",
-    title: "Burger",
-    price: 95,
-    imgUrl: fastFood04,
+    title: "Грибний суп",
+    price: 70,
+    imgUrl: mushroomsoup,
   },
   {
     id: "11",
-    title: "Chicken",
-    price: 250,
-    imgUrl: fastFood04,
+    title: "Солянка",
+    price: 65,
+    imgUrl: saltpan,
   },
   {
     id: "12",
-    title: "Grill Chicken",
-    price: 195,
-    imgUrl: fastFood04,
+    title: "Зелений борщ",
+    price: 50,
+    imgUrl: greenborscht,
   },
 ];
 
 export const riceMenuProducts = [
   {
     id: "13",
-    title: "Fried Rice",
-    price: 95,
-    imgUrl: salad,
+    title: "Вареники",
+    price: 55,
+    imgUrl: varenyky,
   },
   {
     id: "14",
-    title: "Vegetable",
-    price: 250,
-    imgUrl: salad,
+    title: "Котлета по-Київськи",
+    price: 60,
+    imgUrl: kyivchop,
   },
   {
     id: "15",
-    title: "Vegetable Salad",
-    price: 195,
-    imgUrl: salad,
+    title: "Картопля по-селянськи",
+    price: 50,
+    imgUrl: villagepotato,
   },
   {
     id: "16",
-    title: "Meal",
-    price: 275,
-    imgUrl: salad,
+    title: "Тушкована курка",
+    price: 85,
+    imgUrl: chicken,
   },
   {
     id: "17",
-    title: "Fried Rice",
+    title: "Стейкз з яловичини",
     price: 95,
-    imgUrl: salad,
+    imgUrl: steak,
   },
   {
     id: "18",
-    title: "Vegetable",
-    price: 250,
-    imgUrl: salad,
+    title: "Паста",
+    price: 55,
+    imgUrl: pasta,
   },
   {
     id: "19",
-    title: "Vegetable Salad",
-    price: 195,
-    imgUrl: salad,
+    title: "Рис Карі",
+    price: 70,
+    imgUrl: rice,
   },
   {
     id: "20",
-    title: "Meal",
-    price: 275,
+    title: "Салат Цезар",
+    price: 75,
     imgUrl: salad,
   },
 ];
@@ -146,154 +178,154 @@ export const riceMenuProducts = [
 export const dessertProducts = [
   {
     id: "21",
-    title: "Whipped Cream",
+    title: "Тістечка",
     price: 50,
-    imgUrl: dessert03,
+    imgUrl: squarecake,
   },
   {
     id: "22",
-    title: "Cake Cream",
-    price: 50,
-    imgUrl: dessert02,
+    title: "Панакотта",
+    price: 45,
+    imgUrl: panakotta,
   },
   {
     id: "23",
-    title: "Cake",
+    title: "Пахлава",
     price: 50,
-    imgUrl: dessert03,
+    imgUrl: pahlava,
   },
   {
     id: "24",
-    title: "Cup Cake",
-    price: 275,
-    imgUrl: dessert04,
+    title: "Карамельний торт",
+    price: 40,
+    imgUrl: orangecake,
   },
   {
     id: "25",
-    title: "Whipped Cream",
-    price: 50,
-    imgUrl: dessert03,
+    title: "Торт з Орео",
+    price: 40,
+    imgUrl: blackcake,
   },
   {
     id: "26",
-    title: "Cake Cream",
-    price: 50,
-    imgUrl: dessert02,
+    title: "Полуничний торт",
+    price: 40,
+    imgUrl: redcake,
   },
   {
     id: "27",
-    title: "Cake",
+    title: "Млинці",
     price: 50,
-    imgUrl: dessert03,
+    imgUrl: pancakes,
   },
   {
     id: "28",
-    title: "Cup Cake",
-    price: 275,
-    imgUrl: dessert04,
+    title: "Морозиво в панкейку",
+    price: 40,
+    imgUrl: icecreaminpie,
   },
 ];
 
 export const pizzaProducts = [
   {
     id: "29",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "Пепероні",
+    price: 135,
+    imgUrl: pepperoni,
   },
   {
     id: "30",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "З паприкою",
+    price: 130,
+    imgUrl: greenpepperpizza,
   },
   {
     id: "31",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "Іспанська",
+    price: 125,
+    imgUrl: blackolivespizza,
   },
   {
     id: "32",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "Гостра",
+    price: 120,
+    imgUrl: spicypizza,
   },
   {
     id: "33",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "Американська",
+    price: 120,
+    imgUrl: mayopizza,
   },
   {
     id: "34",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "Чотири сири",
+    price: 160,
+    imgUrl: fourcheesepizza,
   },
 
   {
     id: "35",
-    title: "Pizza",
-    price: 95,
-    imgUrl: pizzaImg01,
+    title: "Гавайська",
+    price: 105,
+    imgUrl: hawaiipizza,
   },
   {
     id: "36",
-    title: "Pizza",
+    title: "Італійська",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: italianpizza,
   },
 ];
 
 export const coffeeProducts = [
   {
     id: "37",
-    title: "Hot Coffee",
-    price: 20,
-    imgUrl: coffeeImg02,
+    title: "Латте",
+    price: 35,
+    imgUrl: coffeelatte,
   },
   {
     id: "38",
-    title: "Cold Coffee",
-    price: 20,
-    imgUrl: coffeeImg02,
+    title: "Капучіно",
+    price: 35,
+    imgUrl: cappuccino,
   },
   {
     id: "39",
-    title: "Black Coffee",
-    price: 20,
-    imgUrl: coffeeImg02,
+    title: "Еспресо",
+    price: 25,
+    imgUrl: espresso,
   },
   {
     id: "40",
-    title: "White Coffee",
-    price: 95,
-    imgUrl: coffeeImg02,
+    title: "Гарячий шоколад",
+    price: 30,
+    imgUrl: hotchokolate,
   },
   {
     id: "41",
-    title: "Hot Coffee",
-    price: 20,
-    imgUrl: coffeeImg02,
+    title: "Чорний чай",
+    price: 25,
+    imgUrl: blacktea,
   },
   {
     id: "42",
-    title: "Cold Coffee",
-    price: 20,
-    imgUrl: coffeeImg02,
+    title: "Трав'яний чай",
+    price: 25,
+    imgUrl: greentea,
   },
 
   {
     id: "43",
-    title: "Black Coffee",
-    price: 20,
-    imgUrl: coffeeImg02,
+    title: "Зелений чай",
+    price: 25,
+    imgUrl: lightgreentea,
   },
   {
     id: "44",
-    title: "White Coffee",
-    price: 95,
-    imgUrl: coffeeImg02,
+    title: "Холодний чай",
+    price: 35,
+    imgUrl: icetea,
   },
 ];

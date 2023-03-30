@@ -2,8 +2,17 @@
  width: 100%;   
 }
 
+.form_group p {
+  font-family: "Mulish", sans-serif;
+}
+
+.table_image {
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+
 .table_form {
-    background: rgb(238, 238, 238);
+    background: #e8e8e9;
     padding: 1rem;
     border-radius: 10px;
     width: 85%;
@@ -20,6 +29,7 @@
  color: gray;
  transition: width 0.4s ease-in-out;
  align-items: center;
+ font-family: "Mulish", sans-serif;
 }
 
 .input_field:focus {
@@ -28,7 +38,7 @@
 
 .input_field:focus {
     transition: 0.3s;
-    border-color: rgb(199, 55, 50);
+    border-color: #49111c;
 }
 
 .l-radio {
@@ -36,9 +46,10 @@
     border-radius: 50px;
     display: inline-flex;
     cursor: pointer;
-    transition: background 0.2s ease;
+    transition: background 0.4s ease;
     margin: 8px 0;
     -webkit-tap-highlight-color: transparent;
+    font-family: "Mulish", sans-serif;
   }
   
   
@@ -62,7 +73,7 @@
     outline: none;
   }
   .l-radio input:checked {
-    box-shadow: inset 0 0 0 6px rgb(199, 55, 50);
+    box-shadow: inset 0 0 0 6px #49111c;
   }
   .l-radio span {
     vertical-align: middle;
@@ -74,18 +85,20 @@
   .submit_btn {
     padding: 7px 25px;
     border-radius: 5px;
-    background: rgb(199, 55, 50);
+    background: #49111c;
     color: white;
     font-size: 0.9rem;
     margin-top: 30px;
     cursor: pointer;
     width: 100%;
+    transition: 0.3s ease-in-out;
+    font-family: "Mulish", sans-serif;
   }
 
   .submit_btn:hover {
     color: black;
     background: transparent;
-    transition: 0.3s;
+    
 }
 
 @media only screen and (max-width: 992px) {
@@ -104,6 +117,11 @@
    
     .table_form {
         width: 100%;
+    }
+
+    .table_image {
+      margin-top: -2rem;
+      margin-bottom: 2rem;
     }
     
 

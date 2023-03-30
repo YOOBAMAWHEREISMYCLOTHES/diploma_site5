@@ -1,3 +1,13 @@
+.whoweare_image {
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+.choose_column {
+    background: #e8e8e9;
+    border-radius: 10px;
+}
+
 .single_feature span{
     width: 50px;
     height: 50px;
@@ -42,6 +52,15 @@
         font-size: 1,5rem;
     }
 
+    .choose_content {
+        width: 100%;
+    }
+
+    .whoweare_image {
+        display: block;
+        margin-bottom: 10rem;
+    }
+
     .choose_content h4 {
         font-size: 1rem;
     }
@@ -56,5 +75,16 @@
 
     .single_feature p {
         font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .whoweare_image {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .choose_column {
+        margin-left: 0.3rem;
     }
 }
