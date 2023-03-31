@@ -23,7 +23,6 @@ const Home = () => {
     <Download />
     <Footer />
   </Fragment>
-  
 }
 
 export default Home;

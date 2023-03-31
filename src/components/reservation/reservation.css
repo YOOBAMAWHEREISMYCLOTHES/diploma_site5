@@ -1,5 +1,5 @@
 .form_group {
- width: 100%;   
+ width: 100%;
 }
 
 .form_group p {
@@ -51,8 +51,7 @@
     -webkit-tap-highlight-color: transparent;
     font-family: "Mulish", sans-serif;
   }
-  
-  
+
   .l-radio input {
     vertical-align: middle;
     width: 20px;
@@ -69,12 +68,15 @@
     transition: box-shadow 150ms cubic-bezier(0.95, 0.15, 0.5, 1.25);
     pointer-events: none;
   }
+
   .l-radio input:focus {
     outline: none;
   }
+
   .l-radio input:checked {
     box-shadow: inset 0 0 0 6px #49111c;
   }
+
   .l-radio span {
     vertical-align: middle;
     display: inline-block;
@@ -98,7 +100,6 @@
   .submit_btn:hover {
     color: black;
     background: transparent;
-    
 }
 
 @media only screen and (max-width: 992px) {
@@ -114,7 +115,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-   
+
     .table_form {
         width: 100%;
     }
@@ -123,10 +124,9 @@
       margin-top: -2rem;
       margin-bottom: 2rem;
     }
-    
 
     .form_group {
-        width: 100% !important; 
+        width: 100% !important;
         flex-direction: column;
     }
 }

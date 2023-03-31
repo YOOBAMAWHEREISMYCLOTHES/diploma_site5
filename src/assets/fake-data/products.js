@@ -1,4 +1,4 @@
-// ======= imported  all products images from images folder ========
+// ======= products images imports ========
 import peasoup from "../images/peasoup.png";
 import borscht from "../images/borscht.png";
 import chickensoup from "../images/chickensoup.png"

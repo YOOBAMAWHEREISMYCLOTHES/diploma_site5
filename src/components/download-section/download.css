@@ -1,13 +1,5 @@
-
 .app_container {
     border-radius: 10px;
-}
-
-.app_img {
-}
-
-.app_content h5 {
-
 }
 
 .app_content h2{
@@ -52,7 +44,6 @@ a:hover {
 .btn_twitter:hover {
     color: black;
     background: transparent;
-    
 }
 
 .btn_instagram:hover {
@@ -67,6 +58,7 @@ a:hover {
 @media only screen and (max-width: 992px) {
     .app_img img {
         width: 100%;
+        margin-top: 2.5rem;
     }
 
     .app_content h5 {
@@ -89,7 +81,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .app_content {
         padding: 30px;
     }

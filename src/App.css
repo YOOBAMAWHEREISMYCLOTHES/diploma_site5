@@ -1,13 +1,11 @@
 /* =========== google fonts =========== */
 @import url('https://fonts.googleapis.com/css2?family=Marmelad:wght@400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
-/* ======== base style ======= */
+/* ======== basic style ======= */
 
 * {
   margin: 0;
@@ -37,6 +35,11 @@ h3 {
   font-weight: 400;
   font-family: 'Pacifico', cursive !important;
   color: #49111c;
+}
+
+h5 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
 }
 
 p {

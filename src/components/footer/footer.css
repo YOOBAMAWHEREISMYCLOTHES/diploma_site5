@@ -1,4 +1,3 @@
-
 .footer {
     padding-bottom: 0;
     background: #a9927d;
@@ -12,11 +11,19 @@
     color: #5e503f;
 }
 
+.footer_link-title {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    color: #0a0908;
+}
+
 .link_item {
     padding-left: 0;
     background: transparent;
     transition: 0.5s ease-in-out;
     border-color: transparent;
+    font-family: "Mulish", sans-serif;
+    color: #0a0908;
 }
 
 .link_item i {
@@ -43,6 +50,8 @@
     cursor: pointer;
     transition: 0.3s ease;
     border-color: transparent;
+    font-family: "Mulish", sans-serif;
+    color: #0a0908;
 }
 
 .link_item_f i {
@@ -55,6 +64,8 @@
     cursor: pointer;
     transition: 0.3s ease;
     border-color: transparent;
+    font-family: "Mulish", sans-serif;
+    color: #0a0908;
 }
 
 .link_item_t i {
@@ -67,6 +78,8 @@
     cursor: pointer;
     transition: 0.3s ease;
     border-color: transparent;
+    font-family: "Mulish", sans-serif;
+    color: #0a0908;
 }
 
 .link_item_l i {

@@ -58,7 +58,6 @@ const menuToggle = () => menuRef.current.classList.toggle('active_menu');
                 </ul>
 
                 <div className='menu_right'>
-                   
                 </div>
                 </div>
                 </div>
