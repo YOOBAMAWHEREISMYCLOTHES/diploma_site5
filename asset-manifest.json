@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/diploma_site5/static/css/main.1b351240.css",
-    "main.js": "/diploma_site5/static/js/main.1d6abfc0.js",
+    "main.css": "/diploma_site5/static/css/main.aa65dd6a.css",
+    "main.js": "/diploma_site5/static/js/main.a94ddd3c.js",
     "static/media/app.gif": "/diploma_site5/static/media/app.615a8db6ca7489f65201.gif",
     "static/media/remixicon.svg?t=1590207869815": "/diploma_site5/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/diploma_site5/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -62,11 +62,11 @@
     "static/media/slick.eot": "/diploma_site5/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/diploma_site5/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/diploma_site5/static/media/slick.295183786cd8a1389865.woff",
-    "main.1b351240.css.map": "/diploma_site5/static/css/main.1b351240.css.map",
-    "main.1d6abfc0.js.map": "/diploma_site5/static/js/main.1d6abfc0.js.map"
+    "main.aa65dd6a.css.map": "/diploma_site5/static/css/main.aa65dd6a.css.map",
+    "main.a94ddd3c.js.map": "/diploma_site5/static/js/main.a94ddd3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b351240.css",
-    "static/js/main.1d6abfc0.js"
+    "static/css/main.aa65dd6a.css",
+    "static/js/main.a94ddd3c.js"
   ]
 }
