@@ -38,4 +38,8 @@
     .filter_btn {
         margin-bottom: 15px;
     }
+
+    .food_btns {
+        margin-left: -0.5rem;
+    }
 }

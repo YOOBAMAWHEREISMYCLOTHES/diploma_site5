@@ -8,6 +8,10 @@
     border-radius: 10px;
 }
 
+.choose_content h5 {
+    margin-top: 1rem;
+}
+
 .single_feature span{
     width: 50px;
     height: 50px;
@@ -78,13 +82,10 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .whoweare_image {
         margin-top: 0rem;
         margin-bottom: 2rem;
     }
 
-    .choose_column {
-        margin-left: 0.3rem;
-    }
 }

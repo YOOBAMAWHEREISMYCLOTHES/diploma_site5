@@ -50,7 +50,7 @@ const MenuPack = () => {
           <Col lg='12' className='text-center mb-4'>
             <h3 className='menu_title'>Наше меню</h3>
           </Col>
-          <Col lg='12' className='text-center mb-5'>
+          <Col lg='12' className='food_btns text-center mb-5'>
             <button className={`filter_btn ${filter === 'FAST-FOOD' ? 'active_btn' : ''}`}
               onClick={() => setFilter('FAST-FOOD')}>Перші страви</button>
             <button className={`filter_btn ${filter === 'RICE-MENU' ? 'active_btn' : ''}`}

@@ -55,6 +55,10 @@
         font-size: 0.8rem;
     }
 
+    .product_content h5 {
+        font-size: 0.9rem;
+    }
+
     .price span {
         font-size: 0.9rem;
     }
