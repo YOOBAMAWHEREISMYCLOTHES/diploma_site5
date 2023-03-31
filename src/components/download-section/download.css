@@ -51,10 +51,6 @@ a:hover {
     background: transparent;
 }
 
-.btn_google:hover a {
-    color: black;
-}
-
 @media only screen and (max-width: 992px) {
     .app_img img {
         width: 100%;
@@ -74,16 +70,25 @@ a:hover {
         line-height: 25px;
     }
 
-    .btn_apple, .btn_google {
+    .btn_instagram, .btn_twitter {
         padding: 5px 20px;
         font-size: 0.8rem;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     .app_content {
-        padding: 30px;
+        padding: 20px;
+    }
+
+    .btn_twitter {
+        display: flex;
+        margin-right: 2rem;
+        margin-left: -2rem;
+    }
+    .btn_instagram {
+        display: flex;
     }
 
     .app_img {
